@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# DVC-tracked files
+notebook/data/Iris.csv
+artifacts/model.pkl
+artifacts/preprocessor.pkl
+
+
 # Distribution / packaging
 .Python
 build/
